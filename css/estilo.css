@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+table{
+      /*border:solid 1 pixel;*/
+        border-collapse: collapse;
+        width: 20em;
+}
+
+table th,
+table td{
+  border: solid 2px black;
+  padding: 4px 60px;
+}
+
+  header{
+  	width: 620px;
+}

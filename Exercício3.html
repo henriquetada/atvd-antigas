@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang=”pt-br”>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title> Exercícios - Funções  </title>
+</head>
+<body>
+<h1> Exercícios - Funções  </h1>
+<h2> Faça um algoritmo que receba o número referente ao mês do ano e retorne o nome do mês.  
+</h2>
+<script language="jscript">
+
+var mes ;
+function retornames(arg1){
+	if (arg1==1) return "Janeiro";
+	if (arg1==2) return "Fevereiro";
+	if (arg1==3) return "Março";
+	if (arg1==4) return "Abril";
+	if (arg1==5) return "Maio";
+	if (arg1==6) return "Junho";
+	if (arg1==7) return "Julho";
+	if (arg1==8) return "Agosto";
+	if (arg1==9) return "Setembro";
+	if (arg1==10) return "Outubro";
+	if (arg1==11) return "Novembro";
+	if (arg1==12) return "Dezembro";
+}
+
+do{
+	mes  = +prompt("Informe o mes numerico ");
+	if (mes != 0) alert("O mês é " + retornames(mes));
+}while(mes != 0);
+
+</script>
+
+</body>
+</html>

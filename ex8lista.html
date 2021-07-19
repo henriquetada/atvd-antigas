@@ -1,0 +1,12 @@
+<script>
+	vet_letras = new Array();
+	var i;
+	var cont = 0;
+	for(i = 0; i <10; i++){
+	vet_letras[i] = prompt('informe ' +(i + 1)+ 'letras');
+	if(vet_letras[i] === 'a' || vet_letras[i] === 'e' || vet_letras[i] === 'i' || vet_letras[i] === 'o' || vet_letras[i] === 'u' || ){
+		cont++;
+	}
+	}
+	document.write('foram lidos ' +cont+ 'vogais');
+</script>

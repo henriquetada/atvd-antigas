@@ -1,0 +1,17 @@
+<script>
+	var i;
+	var num;
+	var positivo = 0;
+	var negativo = 0;
+	var n = +prompt('digite o numero');
+	for(i = 1; i <= n; i++){
+		num = +prompt('informe o numero ' + i + 'numero');
+		if(num > 0 )
+			positivo++;
+		else{
+			if(num < 0)
+				negativo++;
+		}
+	}
+	alert('foran lidos' +positivo+ 'numeros positivos e ' +negativo+ 'numeros negativo');
+</script>

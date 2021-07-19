@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang=”pt-br”>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title> Exercícios - Funções  </title>
+</head>
+<body>
+<h1> Exercícios - Funções  </h1>
+<h2> Faça um algoritmo que tenha uma função que receba o Salário e o Valor de Emprestimo pretendido por um Funcionario. Se o valor do empréstimo for até 10 vezes maior do que o salário informado, a função deverá retornar um valor true (verdadeiro), 
+caso contrário, a função deverá retornar um valor false (falso)  
+</h2>
+<script language="jscript">
+
+var salario, emprestimo ;
+function verificaemprestimo(arg1, arg2){
+	if (arg1*10 >= arg2 ){ 
+		return true;
+	}
+	else {return false};
+}
+	salario  = +prompt("Informe o valor do salário ");
+	emprestimo = +prompt("Informe o valor pretendido do emprestimo");
+	if (verificaemprestimo(salario,emprestimo)) document.write("O emprestimo pode ser concedido")
+	else document.write("O emprestimo não pode ser concedido");
+	
+
+
+</script>
+
+</body>
+</html>

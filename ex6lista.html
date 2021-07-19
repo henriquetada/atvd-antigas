@@ -1,0 +1,30 @@
+<script>
+	a = new Array ();
+	b = new Array ();
+	var i;	
+	var maior = 0;
+	var menor = 0;
+	for(i = 0; i < 4; i++){
+	a[i] = +prompt('informe ' + (i + 1) + 'numero para a variavel A');
+	}
+	for(i = 0; i < 4; i++){
+	b[i] = +prompt('informe ' + (i + 1) + 'numero para a variavel A');
+	}	
+	maior = a[0];
+	menor = a[0];
+	for(i = 0; i < 4; i++){
+	if(a[i] > maior){
+		maior = a[i];
+	}
+	if(b[i] > maior){
+		maior = b[i];
+	}
+	if(a[i] < menor){
+		menor = a[i];
+	}
+	if(b[i] < menor){
+		menor = b[i];
+		}
+	}
+	document.write('O maior numero ' + maior + 'e o menor numero ' + menor +);
+</script>
