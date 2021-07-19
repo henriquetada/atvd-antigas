@@ -1,0 +1,16 @@
+<script>
+	vet_nome = new Array ();
+	var nome_busca;
+	var cont = 10;
+	for(i = 0; i < 10; i++)
+	vet_nome[i] = prompt('informe ' +(i + 1)+ 'nome');
+	nome_busca = prompt('informe o nome base');
+	for(i = 0; i < 10; i++){
+		if(nome_busca === vet_nome[i]){
+			document.write('o nome encontrado na posicao ' +(i + 1)+);
+		cont++;
+		}
+	}
+	if(cont == 0)
+	document.write('nome nao encontrado');	
+</script>

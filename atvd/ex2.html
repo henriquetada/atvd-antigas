@@ -1,0 +1,20 @@
+<script>
+	var i;
+	var num;
+	var maior;
+	var menor;
+	var n = prompt('Quantos numeros serao lidos');
+	for(i = 1; i <= n; i++){
+		num = +prompt('informe o ' + i + ' º numero');
+		if(i == 1){
+			maior = num;
+			menor = num;
+		}else{
+			if(num > maior)
+				maior = num;
+			if(num < menor)
+				menor = num;		
+		}
+	}
+	alert('O maior numero lido foi ' + maior +' e o menor foi '+ menor);
+</script>

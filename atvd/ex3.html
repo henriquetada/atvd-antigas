@@ -1,0 +1,17 @@
+<script>
+	var i;
+	var num;
+	var pares = 0;
+	var impares = 0;
+	var n = +prompt('digite quantos numeros serao lidos');
+	for(i = 1; i <= n; i++) {
+		num = +prompt('informe o ' + i + 'numero');
+		if(num != 0){
+		if(num % 2 == 0)
+			pares ++
+		else
+			impares++;
+		}
+	} 
+	alert('foram lidos' +pares+ 'numeros pares e ' +impares+ 'inpares');
+</script>

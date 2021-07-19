@@ -1,0 +1,19 @@
+<script>
+
+	a = new Array();
+	var i = 0;
+	var num;
+	var tamanho;
+	var soma = 0;
+	do{
+	num = +prompt('informe um numero');
+	a[i] = num;
+	i++;
+	soma += num;
+	}while(soma <= 20);
+	tamanho = i;
+	document.write('<Br> numeros lidos');
+	for(i = 0; i < tamanho; i++){
+		document.write(" " + a[i]);
+		}
+</script>
